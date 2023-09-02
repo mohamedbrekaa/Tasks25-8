@@ -50,3 +50,34 @@ calculate (1,2, "sub")
 calculate (1,2, "multi")
 calculate (1,2, "division")
 calculate (1,2, "frhygrhf")
+
+
+// search task 
+// 1- Switch 
+let day = 2;
+let dayName = "";
+switch (day){
+    case 1:
+    dayName = 'الاحد';
+    break;
+    case 2:
+    dayName = 'الاثنين';
+    break;
+    case 3:
+    dayName = 'الثلاثاء';
+    break;
+    case 4:
+    dayName = 'الاربعاء';
+    break;
+    case 5:
+    dayName = 'الخميس';
+    break;
+    case 6:
+    dayName = 'الجمعة';
+    break;
+    case 7:
+    dayName = 'السبت';
+    break;
+}
+console.log(dayName);
+
